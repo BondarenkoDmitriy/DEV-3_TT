@@ -23,4 +23,15 @@
   color: #333;
 }
 
+.output__char {
+  display: inline-block;
+  cursor: pointer;
+}
+.output__char.selected {
+  background-color: yellow;
+}
+.output__char.dragging {
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=style.css.map */

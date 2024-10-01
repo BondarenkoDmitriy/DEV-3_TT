@@ -27,3 +27,16 @@
     color: #333;
   }
 }
+
+.output__char {
+  display: inline-block;
+  cursor: pointer;
+
+  &.selected {
+    background-color: yellow;
+  }
+
+  &.dragging {
+    opacity: 0.5;
+  }
+}
