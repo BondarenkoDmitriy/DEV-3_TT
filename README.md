@@ -59,3 +59,7 @@ DEV-3_TT/
    npm install
    # Запуск компіляції SCSS:
    npm run sass
+   # Запуск проекту:
+   Для локального перегляду проекту рекомендується використовувати Live Server:
+     - Встановіть розширення Live Server в VS Code.
+     - Відкрийте index.html і виберіть "Open with Live Server" для запуску проекту в браузері.
